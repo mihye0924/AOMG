@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+* { margin: 0; padding: 0; }
+body { background: #f1f1f1; font-family: "Noto Sans KR",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 15px; }
+li { list-style: none; }
+a { text-decoration: none; color: #000; }
+
+:root { color: #000; }
+
+.fs-12 { font-size: 12px; }
+.fs-15 { font-size: 15px; }
+.fs-18 { font-size: 18px; }
+.fs-20 { font-size: 20px; }
+.fs-24 { font-size: 24px; }
+.fs-32 { font-size: 32px; }
+.fs-48 { font-size: 48px; }
+.fs-100 { font-size: 100px; }
+
+.container { width: 100%; max-width: 980px; margin: 0 auto; }
+
+/* nav */
+nav { position: sticky; top: 0; background: #f1f1f1; display: flex; justify-content: space-between; height: 80px; align-items: center; }
+nav ul {  display: flex; }
+nav ul:nth-of-type(2) { padding-left: 138px; }
+nav ul:nth-of-type(2) li { margin: 0 30px;  }
+nav ul:nth-of-type(3) li { margin: 0 10px; }
+nav ul li a { font-weight: 700;}
+
+/* main */
+main {}
+main h1 { padding: 100px 0; }
+main h1 img { display: block; width: 40%; height: auto; margin: 0 auto; }
+main .main-img {}
+main .main-img img { display: block; width: 100%; margin: 0 auto; }
+main .main-contents { text-align:center; margin: 180px 0; }
+main .main-contents .fs-18 { text-transform: uppercase; }
+
+/* section */
+section .section-title-1 { display: flex; justify-content: space-around; align-items: center; }
+section .section-title-1 img { width: 90px; height:120px; }
+section .section-title-1 img:nth-of-type(1) { transform: rotate(-40deg); }
+section .section-title-2 marquee { font-weight: 900; }
+
+
+
+
+/* swiper  */
+.swiper-slide { position: relative; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+.swiper-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.side-text { position: absolute; z-index: 1; background: #000; width: 100%; height: 50px; color: #fff; font-size: 20px; line-height: 50px; transform: rotate(90deg); left: -45%; }
+.side-text span:first-of-type { padding-left: 20px; }
+.side-text span:last-of-type { position: absolute; right: 0; padding-right: 20px; }

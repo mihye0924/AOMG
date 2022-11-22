@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOMG</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/59e71dccf6576e2bd65ea29d/1513243047068-FT82WZI8TFX8W9QPYO6D/favicon.ico?format=100w">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/Amog.css">
+</head>
+<body>
+    <nav class="nav container">
+        <ul></ul>
+        <ul>
+            <li><a class="fs-15" href="#">ABOUT</a></li>
+            <li><a class="fs-15" href="#">ARTISTS</a></li>
+            <li><a class="fs-15" href="#">SCHEDULE</a></li>
+            <li><a class="fs-15" href="#">CONTACT</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><i class="fs-18 fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fs-18 fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fs-18 fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fs-18 fa-brands fa-square-facebook"></i></a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h1><img src="./img/AOMG+LOGO.png" alt="aomg로고"></h1>
+        <div class="main-img">
+            <img src="./img/000069_R3.jpg" alt="000069_R3">
+        </div>
+        <div class="main-contents">
+            <p class="fs-18">
+                AOMG is a full-service entertainment company founded in 2013,<br>
+                which serves as a hip-hop and R&B record label and artist management.<br>
+                The company has become significant not only in hip-hop scene<br>
+                <br><br>
+                but also in extensive music industry with the diversity<br>
+                of captivating music and related content.<br>
+                AOMG also proved itself as a global brand by the success of multiple<br>
+                concerts, world tour, and a variety of events not just in domestic<br>
+                market but also in international market.
+            </p>
+        </div>
+    </main>
+    <section>
+        <div class="section-title-1 container">
+            <img src="./img/arrow.png" alt="섹션1-화살표">
+            <h2 class="fs-100">ARTISTS</h2>
+            <img src="./img/arrow.png" alt="섹션1-화살표"> 
+        </div>
+        <div class="section-title-2">
+            <MARQUEE class="fs-100" direction="left" scrollamount="20">JAY PARK · SIMON DOMINIC · GRAY · LOCO · CHA CHA MALONE · ELO · UGLY DUCK · WOO · HOODY · DJ PUMKIN · DJ WEGUN · CODE KUNST · PUNCHNELLO · SOGUMM · KOREAN ZOMBIE · DEVITA · LEEHI · GOOSEBUMPS · YUGYEOM · COOGIE · JVCKI WAI </MARQUEE> 
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="side-text">
+                        <span>AOMG ARTIST</span>
+                        <span>박재범</span>
+                    </div>
+                    <img src="./img/img1.jpg" alt="박재범">
+                </div>
+                <div class="swiper-slide"><img src="./img/img2.jpg" alt="사이먼도미닉"></div>
+                <div class="swiper-slide"><img src="./img/img3.jpg" alt="그레이"></div>
+                <div class="swiper-slide"><img src="./img/img4.jpg" alt="로꼬"></div>
+                <div class="swiper-slide"><img src="./img/img5.jpeg" alt="코드쿤스트"></div> 
+                <div class="swiper-slide"><img src="./img/img6.jpeg" alt="코리아좀비"></div> 
+            </div>
+        </div>
+    </section>
+    <script src="./js/Amog.js"></script>
+    <script src="https://kit.fontawesome.com/4aebe88a50.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        let swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 15,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          } 
+        });
+      </script>
+</body>
+</html>
