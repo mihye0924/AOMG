@@ -8,3 +8,5 @@ AOMG 리디자인 페이지
 작업기간 : 00소요
 작업툴 : visual studio code
 사용언어 : html, css, javascript, jquery 등
+
+https://mihye0924.github.io/AOMG/Aomg.html
